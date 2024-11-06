@@ -1,11 +1,4 @@
----
-title : Shellcode Injector
-author : k4n3ki
-date : 2024-01-17 7:00:00 -500
-categories: [Malware]
-tags: [Tools]
----
-
+# Shellcode Injector
 
 ## <span style = "color:red;">Content</span> 
 - [Task](#task)
