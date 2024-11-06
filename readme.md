@@ -1,5 +1,9 @@
 # Shellcode Injector
 
+## Task
+- Explain and write a shellcode injector that bypasses Windows Defender and helps to invoke simple msgbox shellcode. If it isnʼt possible to bypass defender, you can attempt to bypass any other AV of choice or document attempted techniques and failures.
+- Perform basic malware analysis over the shellcode injector
+
 ## <span style = "color:red;">Content</span> 
 - [Task](#task)
 - [Create Shellcode](#shellcode-creation)
@@ -8,11 +12,6 @@
 - [Shallcode Injection](#shellcode-injection)
 - [Basic Malware Analysis](#basic-malware-analysis)
 - [Conclusion](#conclusion)
-
-
-## Task
-- Explain and write a shellcode injector that bypasses Windows Defender and helps to invoke simple msgbox shellcode. If it isnʼt possible to bypass defender, you can attempt to bypass any other AV of choice or document attempted techniques and failures.
-- Perform basic malware analysis over the shellcode injector
 
 ## Shellcode Creation
 
