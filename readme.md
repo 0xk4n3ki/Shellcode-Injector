@@ -15,7 +15,7 @@
 
 ## Shellcode Creation
 
-First, I began searching for a method to create a shellcode that would trigger a messagebox. Despite finding numerous available shellcodes, none of them worked for me. Ultimately, I successfully cra ed my own shellcode by referring to this [article](https://www.ired.team/offensive-security/code-injection-process-injection/writing-and-compiling-shellcode-in-c).
+First, I began searching for a method to create a shellcode that would trigger a messagebox. Despite finding numerous available shellcodes, none of them worked for me. Ultimately, I successfully created my own shellcode by referring to this [article](https://www.ired.team/offensive-security/code-injection-process-injection/writing-and-compiling-shellcode-in-c).
 
 The header file contains two functions: <span style = "color:lightgreen;">get_module_by_name</span> and <span style = "color:lightgreen;">get_func_by_name</span>. get_module_by_name parses the Process Environment Block (PEB) and LDR table to iterate through all the modules and compares the moduleʼs BaseName to the required module name. This function is used to resolve the address of kernel32.dll.
 
